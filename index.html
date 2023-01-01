@@ -102,10 +102,10 @@
           name: "Current",
           timezoneOffset: new Date().getTimezoneOffset() / 60,
         },
-        { name: "New York", timezoneOffset: -5 },
+        { name: "New York", timezoneOffset: +5 },
         { name: "London", timezoneOffset: 0 },
-        { name: "Tokyo", timezoneOffset: 9 },
-        { name: "Sydney", timezoneOffset: 10 },
+        { name: "Tokyo", timezoneOffset: -9 },
+        { name: "Sydney", timezoneOffset: -10 },
       ];
       cities.forEach((city) => {
         const cityId = city.name.split(" ").join("-").toLowerCase();
