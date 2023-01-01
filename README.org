@@ -5,7 +5,7 @@
 #+STARTUP:    showall
 #+PROPERTY:   header-args :tangle yes
 
-[[https://notshriram.github.io/centadiem/][file:android-chrome-512x512.png]]
+[[https://notshriram.github.io/centadiem/index.html][file:android-chrome-512x512.png]]
 
 * About this Project
 
@@ -14,7 +14,7 @@ This repo contains a clock that displays the current time in percentage decimal 
 
 ** Visit the Live Site
 
-[[https://notshriram.github.io/centadiem/][Live Site]]
+[[https://notshriram.github.io/centadiem/index.html][Live Site]]
 
 ** License
 
