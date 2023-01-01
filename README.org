@@ -1,0 +1,21 @@
+#+TITLE:      Centadiem
+#+AUTHOR:     Shriram Ravindranathan
+#+KEYWORDS:   Decimal Time Clock Percentage Day
+#+OPTIONS:    toc:4 h:4 ':t
+#+STARTUP:    showall
+#+PROPERTY:   header-args :tangle yes
+
+[[https://notshriram.github.io/centadiem/][file:android-chrome-512x512.png]]
+
+* About this Project
+
+Decimal time is a timekeeping system based on the number 10. See [[https://en.wikipedia.org/wiki/Decimal_time][Decimal Time on Wikipedia]].
+This repo contains a clock that displays the current time in percentage decimal time. It also displays the times in a couple of other time-zones.
+
+** Visit the Live Site
+
+[[https://notshriram.github.io/centadiem/][Live Site]]
+
+** License
+
+This project is licensed under GPLv3 - see the [[file:LICENSE][LICENSE]] file for details.
