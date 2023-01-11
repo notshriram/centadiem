@@ -106,18 +106,24 @@
         { name: "Tokyo", timezoneOffset: -9 },
         { name: "Sydney", timezoneOffset: -10 },
       ];
+
       cities.forEach((city) => {
         const cityId = city.name.split(" ").join("-").toLowerCase();
         const timeDiv = document.getElementById(`time-${cityId}`);
         timeDiv.innerHTML = parseFloat(
           getPercentTime(city.timezoneOffset)
         ).toFixed(3);
-        setInterval(() => {
+      });
+
+      setInterval(() => {
+        cities.forEach((city) => {
+          const cityId = city.name.split(" ").join("-").toLowerCase();
+          const timeDiv = document.getElementById(`time-${cityId}`);
           timeDiv.innerHTML = parseFloat(
             getPercentTime(city.timezoneOffset)
           ).toFixed(3);
-        }, 864);
-      });
+        });
+      }, 864);
     </script>
   </body>
 </html>
