@@ -122,6 +122,13 @@
         // get start and end time from local storage
         var start = localStorage.getItem("start");
         var end = localStorage.getItem("end");
+
+        if (!start || !end) {
+          // if start and end time are not saved, use the default values
+          start = document.getElementById("time-start").value;
+          end = document.getElementById("time-end").value;
+        }
+
         var now = new Date();
         var start = new Date(
           now.getFullYear(),
