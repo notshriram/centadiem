@@ -1,0 +1,37 @@
+/* theme */
+[data-theme="dark"] {
+  --background: hsl(207, 26%, 17%);
+  --text: hsl(0, 0%, 100%);
+  --elements: hsl(209, 23%, 22%);
+  --text-secondary: hsl(0, 2%, 69%);
+}
+
+[data-theme="light"] {
+  --background: hsl(0, 0%, 98%);
+  --text: hsl(200, 15%, 8%);
+  --elements: hsl(0, 0%, 100%);
+  --text-secondary: hsl(0, 0%, 52%);
+}
+
+.theme-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+/* utility classes */
+
+.app-bg-primary {
+  background-color: var(--background);
+}
+
+.app-bg-secondary {
+  background-color: var(--elements);
+}
+
+.app-text-primary {
+  color: var(--text);
+}
+
+.app-text-secondary {
+  color: var(--text-secondary);
+}

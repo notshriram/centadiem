@@ -15,3 +15,18 @@ function getPercentTime(timezoneOffset) {
 
   return percentTime.toFixed(5);
 }
+
+// theme change
+const themeIcon = document.getElementById("theme-img");
+
+themeIcon.addEventListener("click", () => {
+  const body = document.querySelector("body");
+  const isLightTheme = body.getAttribute("data-theme") === "light";
+  if (isLightTheme) {
+    body.setAttribute("data-theme", "dark");
+    themeIcon.setAttribute("src", "./assets/icons/sun-icon.svg");
+  } else {
+    body.setAttribute("data-theme", "light");
+    themeIcon.setAttribute("src", "./assets/icons/moon-icon.svg");
+  }
+});
