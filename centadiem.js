@@ -20,7 +20,6 @@ function getPercentTime(timezoneOffset) {
 const themeIcon = document.getElementById("theme-img");
 
 themeIcon.addEventListener("click", () => {
-  // change data-theme
   const body = document.querySelector("body");
   const isLightTheme = body.getAttribute("data-theme") === "light";
   if (isLightTheme) {
